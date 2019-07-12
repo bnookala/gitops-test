@@ -1,3 +1,3 @@
 #!/bin/bash
 
-git clone https://github.com/bnookala/hello-rings
+git clone git@github.com:bnookala/hello-rings.git
