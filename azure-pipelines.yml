@@ -3,6 +3,12 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+- task: InstallSSHKey@0
+  inputs:
+    knownHostsEntry: '|1|1TEhNBGKjhw4As+wz87EwEgNeWw=|wyvAFcQaEAt6K60+lKOUJ+iZysk= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=='
+    sshPublicKey: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCintnd80uefJJEY5VVmUFY5qY0YtaizwlsulAq2Qp6pW3KBOG9V34IH/2o/3XAQzSntkQB+QwQ6/Pverrjjvp3W7RVpGsH0p+Pwzr0BGAU64L9FnKa45tS6+U89HQ+SIZzYpa4s3bHcxcikKnF+3PeKi+cOe7Hu/uDcRUvUF5IfozabaJRzi6/lw8KF9La45xe+wp2lPPlEUNgT63nhZte7JXcX6B2YxUsxIipSnJ9OUV9EFvB2t2Xy/Pj6AiFYX8J4sFpxKeN1j1tTnRAUEA6WgiFs6AiMXL2RKduUT4K4hSYKiU9rNCofgNAy/g/IBwgluNsnhfM6fr1Qg/L8nOV bhargav@cc-72f548ce-55cdd65954-9j9cf'
+    sshKeySecureFile: 'id_rsa'
+
 trigger:
 - master
 
