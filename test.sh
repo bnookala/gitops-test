@@ -4,6 +4,8 @@ wget "https://github.com/Microsoft/fabrikate/releases/download/0.15.0/fab-v0.15.
 
 unzip fab-v0.15.0-linux-amd64.zip -d fab
 
+mv ./fab/fab $HOME
+
 export PATH=$PATH:$HOME/fab
 
 fab install
