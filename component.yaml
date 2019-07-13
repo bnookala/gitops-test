@@ -1,0 +1,9 @@
+name: hello-rings
+type: component
+subcomponents:
+- name: hello-rings-featurea
+  type: component
+  source: git@github.com:bnookala/hello-rings.git
+  method: git
+  path: ring
+  branch: featurea
