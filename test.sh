@@ -6,9 +6,7 @@ unzip fab-v0.15.0-linux-amd64.zip -d fab
 
 mv ./fab/fab $HOME
 
-export PATH=$PATH:$HOME/fab
-
-fab install
+$HOME/fab install
 
 # git clone git@github.com:bnookala/hello-rings.git
 
